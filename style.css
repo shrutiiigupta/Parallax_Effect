@@ -28,13 +28,13 @@ header{
 
 .logo{
     font-size: 2em;
-    color: #359381;
+    color: #10382f;
     pointer-events: none;
 }
 
 .navigation a{
     text-decoration: none;
-    color: #359381;
+    color: #10382f;
     padding: 6px 15px;
     border-radius: 20px;
     margin: 8 10px;
@@ -43,7 +43,7 @@ header{
 
 .navigation a:hover, 
 .navigation a.active{
-    background: #359381;
+    background: #10382f;
     color: #fff;
 }
 
@@ -72,8 +72,9 @@ header{
 }
 .sec{
     position: relative;
-    background: #10382f ;
+    background: linear-gradient(180deg, #10382F 0%, #346BC0 100%) ;
     padding: 100px;
+    height: 1200px;
 }
 .sec h2{
     font-size: 3em;
@@ -86,3 +87,21 @@ header{
     font-weight: 100;
 }
 
+.sec img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.div{
+    height: 60px;
+    width: 100%;
+    background: #dbdecb;
+}
+.third{
+    position: relative;
+    background: #dbdecb ;
+    padding: 100px;
+    height: 1000px;
+}
