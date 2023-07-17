@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 *{
     margin: 0;
@@ -80,25 +81,64 @@ header{
     font-size: 3em;
     color: #fff;
     margin-bottom: 10px;
+    font-weight: 50;
 }
 .sec p{
     font-size: 1em;
     color: #fff;
     font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
 }
+.sec h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    display: flex;
+}
+.abtMe{
+    text-align: center;
+    padding: 30px;
+    
+}
+/* .tech{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5em;
+} */
 
-.sec img{
+
+.Card {
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+  }
+
+.skills__aline{
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.skill__logo {
+    height: 60px;
+    width: 60px;
+    display: inline;
+
+}
+.sec .cloudss{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     pointer-events: none;
 }
-.div{
-    height: 60px;
-    width: 100%;
-    background: #dbdecb;
-}
+
 .third{
     position: relative;
     background: #dbdecb ;

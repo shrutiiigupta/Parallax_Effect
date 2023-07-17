@@ -25,7 +25,7 @@ window.addEventListener('scroll',() => {
 window.addEventListener('scroll',() => {
     let value = window.scrollY;
     
-        cloudlow.style.top = value * -1.5 + 'px';
+        // cloudlow.style.top = value * -1.5 + 'px';
         // rightFront.style.left = value * 1 + 'px';
         // leftFront.style.left = value * -1 + 'px';
         // backest.style.top = value * 1 + 'px';
