@@ -22,15 +22,4 @@ window.addEventListener('scroll',() => {
     // rightBack.style.left = value * -1 + 'px';
 
 })
-window.addEventListener('scroll',() => {
-    let value = window.scrollY;
-    
-        // cloudlow.style.top = value * -1.5 + 'px';
-        // rightFront.style.left = value * 1 + 'px';
-        // leftFront.style.left = value * -1 + 'px';
-        // backest.style.top = value * 1 + 'px';
-    
-    
-    // rightBack.style.left = value * -1 + 'px';
 
-})

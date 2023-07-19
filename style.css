@@ -60,7 +60,6 @@ header{
     position: absolute;
     font-size: 5em;
     color: #333;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); */
     text-shadow: 2px 6px 6px rgba(255, 255, 255, 0.25);
 }
 
@@ -84,7 +83,6 @@ header{
     font-weight: 50;
 }
 .sec p{
-    font-size: 1em;
     color: #fff;
     font-weight: 100;
     font-family: 'Nunito', sans-serif;
@@ -101,34 +99,28 @@ header{
     padding: 30px;
     
 }
-/* .tech{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 2.5em;
-} */
+
 
 
 .Card {
 
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(56, 99, 91, 0.45);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(15px);
   }
 
 .skills__aline{
     display: flex;
-    padding: 10px;
+    padding: 0 50px;
     align-items: flex-start;
-    gap: 10px;
+    gap: 18px;
 }
 .skill__logo {
+    
     height: 60px;
     width: 60px;
-    display: inline;
 
 }
 .sec .cloudss{
@@ -144,4 +136,111 @@ header{
     background: #dbdecb ;
     padding: 100px;
     height: 1000px;
+}
+
+
+
+
+.main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.main .heading{
+    font-size: 3em;
+    font-weight: 500;
+    color: rgb(38, 87, 135);
+    margin-bottom: 80px;
+    
+}
+
+
+/* Timeline Css Start  */
+
+.Timeline{
+    width: 80%;
+    height: auto;
+    position: relative;
+    
+    transform: 15px;
+}
+.Timeline ul::after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 100%;
+    left: -30px;
+    background-color: #346BC0;
+    
+}
+.Timeline ul{
+    list-style: none;
+}
+.Timeline ul li {
+    width: 80%;
+    float: left;
+    clear: none;
+    height: auto;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 80px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 25px rgba(51, 51, 51, 0.192);
+    position: relative;
+    z-index: 99;
+}
+
+.Timeline ul li:nth-child(even){
+    transform: translateX(0);
+}
+.Timeline ul li:nth-child(4){
+    margin-bottom: 0;
+}
+.Timeline ul li .title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    color: rgb(38, 87, 135);
+}
+ul li p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    color: rgb(74, 120, 191);
+    margin: 7px 0;
+    line-height: 23px;
+}
+
+ul li .date{
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: -45px;
+    width: 135px;
+    height: 35px;
+    border-radius: 20px;
+    color: #fff;
+    background: #346BC0;
+    display: grid;
+    place-items: center;
+    font-size: 14px;
+}
+.Timeline ul li .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgba(114, 164, 242,0.4);
+    position: absolute;
+    top: 0;
+    left: -30px;
+    transform: translate(-50%, -50%);
+}
+.Timeline ul li .circle::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(38, 88, 137);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
