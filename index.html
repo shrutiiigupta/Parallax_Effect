@@ -8,14 +8,14 @@
 </head>
 <body>
     <header>
-        <h2 class="logo">Logoi</h2>
+        <h2 class="logo">Portfolio</h2>
         <nav class="navigation">
             <a href="#" class="active">Home</a>
             <a href="#tech">About Me</a>
             <a href="#tech">Skills</a>
             <a href="#time">Timeline</a>
             <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -45,6 +45,7 @@
                 <div class="Card" style=" width: 40%; height: 550px; float:left;">  
                     <h2 class="abtMe">About Me</h2>
                     <p id="abtmetext" style="margin: 0 50px">
+                        I am Shruti Gupta.<br>
                         CSE-Undergraduate at IIIT Vadodara.<br>
                         I am a Frontend Developer, UI/UX Designer and Freelancer.<br>
                         Also a consistent leetcoder.
@@ -134,6 +135,19 @@
 
     </section>
 
+    <section class="fifth" id="contact">
+        <div class="contactContainer">  <!--body -->
+            <form class="form" onsubmit="sendEmail(); reset(); return false;" >
+                <h3>GET IN TOUCH</h3>
+                <input class="input" type="text" id="name" placeholder="Your Name" required>
+                <input class="input" type="email" id="email" placeholder="Email id" required>
+                <input class="input" type="text" id="phone" placeholder="Phone No." required>
+                <textarea class="input" id="message" rows="4" placeholder="How can I help you?"></textarea>
+                <button id="submit">Send</button>
+            </form>  
+        </div>
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
     
 </body>

@@ -244,3 +244,56 @@ ul li .date{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+.contactContainer{
+    background: linear-gradient(180deg, #DBDECB 0%, #BFCA86 100%);
+    padding: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    background: #f9f3f3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vh 4vh;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 25px rgba(51, 51, 51, 0.192);
+    >h3{
+        font-family: 'Nunito', sans-serif;
+        color: #555;
+        font-size: 1.5em;
+        margin: 20px 0;
+        
+    }
+    >.input {
+        border-radius: 5px;
+        font-family: 'Nunito', sans-serif;
+        margin: 10px 0;
+        padding: 20px;
+        width: 500px;
+        border: 0;
+        background: #edecec;
+        font-size: 16px;
+    }
+    >button{
+        padding: 15px;
+        background: #ff5361;
+        color: #fff;
+        font-size: 18px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: 150px;
+        margin: 20px auto;
+        border-radius: 30px;
+    }
+    
+}
